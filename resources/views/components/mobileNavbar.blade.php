@@ -1,5 +1,5 @@
 <!-- Mobile Navbar -->
-<nav id="mobileNavbar" class="flex justify-between pb-1 bg-white fixed top-0 left-0 right-0 z-10 md:hidden">
+<nav id="mobileNavbar" class="flex justify-between pb-1 bg-[#f5f5fa] fixed top-0 left-0 right-0 z-10 md:hidden">
     <div class="flex justify-between w-full px-4">
         <div class="flex gap-2">
             <img class="w-12" src="{{ asset('storage/logo.png') }}" alt="Primauto Logo">
@@ -20,7 +20,7 @@
         </button>
     </div>
     <div id="mobileMenu"
-        class="fixed top-0 left-0 right-0 h-screen bg-white text-xl font-semibold hidden transform transition-transform duration-300 ease-in-out">
+        class="fixed top-0 left-0 right-0 h-screen bg-[#f5f5fa] text-xl font-semibold hidden transform transition-transform duration-300 ease-in-out">
         <div class="flex justify-end px-4 py-2">
             <!-- Close Button -->
             <button id="closeBtn" class="focus:outline-none">

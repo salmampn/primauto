@@ -1,4 +1,4 @@
-<nav id="navbar" class="hidden md:flex justify-between pb-1 bg-white fixed top-0 left-0 right-0 z-10">
+<nav id="navbar" class="hidden md:flex justify-between pb-1 bg-[#f5f5fa] fixed top-0 left-0 right-0 z-10">
     <div class="flex ml-10 gap-2 items-center">
         <img class="w-20" src="{{ asset('storage/logo.png') }}" alt="Primauto Logo">
         <div class="m-auto">
