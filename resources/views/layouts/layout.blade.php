@@ -15,9 +15,7 @@
 <body>
     @include('components.navbar')
     @include('components.mobileNavbar')
-    <div class="container">
-        @yield('content')
-    </div>
+    @yield('content')
 </body>
 
 </html>
