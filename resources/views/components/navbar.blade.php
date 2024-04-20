@@ -9,15 +9,18 @@
             <p class="text-center font-semibold">Used Car</p>
         </div>
     </div>
-    <div class="flex gap-x-20 mr-10 text-xl font-semibold">
+    <div class="flex  gap-x-8 lg:gap-x-20 mr-10 text-xl font-semibold">
         <div
             class="m-auto hover:text-red-500 transition duration-300 ease-in-out transform hover:scale-110 active:bg-red-500 active:text-white">
-            <a href="/">Home</a></div>
+            <a href="/">Home</a>
+        </div>
         <div
             class="m-auto hover:text-red-500 transition duration-300 ease-in-out transform hover:scale-110 active:bg-red-500 active:text-white">
-            <a href="/products">Products</a></div>
+            <a href="/products">Products</a>
+        </div>
         <div
             class="m-auto hover:text-red-500 transition duration-300 ease-in-out transform hover:scale-110 active:bg-red-500 active:text-white">
-            <a href="/contact">Contact</a></div>
+            <a href="/contact">Contact</a>
+        </div>
     </div>
 </nav>
