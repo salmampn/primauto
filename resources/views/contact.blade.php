@@ -1,9 +1,13 @@
 @extends('layouts.layout')
 
 @section('title', 'Contact')
+<div class="absolute inset-0 -z-10 hidden lg:block">
+    <img class="object-cover w-screen h-4/6 md:h-screen" src="{{ asset('storage/bg.jpg') }}" alt="">
+    <div class="absolute inset-0 bg-black opacity-70"></div>
+</div>
 @section('content')
     <div class="flex flex-col h-screen">
-        <div class="p-6 mt-10 md:mt-0 md:p-20 text-[#13131a] flex-grow">
+        <div class="p-6 mt-10 md:mt-0 md:p-20 text-[#13131a] lg:text-[#f5f5fa] flex-grow">
             <div class="text-2xl md:text-5xl font-semibold mb-4">
                 <h1 class="text-red-500">Contact</h1>
                 <p class="text-3xl md:text-5xl">Reach out. Contact</p>
@@ -45,18 +49,22 @@
                             <h2 class="font-semibold">Contact Person 1</h2>
                             <p class="text-base lg:text-lg">0812-902-1564</p>
                             <a href="https://wa.me/628129021564" target="_blank">
-                                <p class="text-base lg:text-lg text-red-500">[ Maureen ]</p>
+                                <p
+                                    class="text-base lg:text-lg text-red-500 lg:hover:text-white transition duration-300 ease-in-out">
+                                    [ Maureen ]</p>
                             </a>
                         </div>
                         <div class="col-span-6">
                             <h2 class="font-semibold">Contact Person 2</h2>
                             <p class="text-base lg:text-lg">0896-6766-9909</p>
-                            <a href="https://wa.me/6289667669909" target="_blank" class="col-span-6">
-                                <p class="text-base lg:text-lg text-red-500">[ Marcel ]</p>
+                            <a href="https://wa.me/6289667669909" target="_blank">
+                                <p
+                                    class="text-base lg:text-lg text-red-500 lg:hover:text-white transition duration-300 ease-in-out">
+                                    [ Marcel ]</p>
                             </a>
                         </div>
                     </div>
-                    <div class="WaButton mt-4">
+                    <div class="WaButton mt-4 lg:text-[#f5f5fa]">
                         @include('components.buttonwa')
                     </div>
                 </div>
